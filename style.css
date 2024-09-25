@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.box__for-all {
+    position: relative;
+} 
+
+
+.original {
+    max-width: 500px;
+    width: 100%;
+    height: 500px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: 100%;
+}
+
+
+.first__box {
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    width: 60px;
+    height: 280px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.first__color {
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+}
+
+
+
+
+.q {
+    background: url(https://www.funnyart.club/uploads/posts/2022-12/thumbs/1671275788_www-funnyart-club-p-kartinki-burgerov-krasivo-22.jpg);
+    background-size: 100%;
+    max-width: 40px;
+    width: 100%;
+    height: 40px;
+}
+    
+
+.w {
+    background: url(https://www.funnyart.club/uploads/posts/2022-12/thumbs/1671275811_www-funnyart-club-p-kartinki-burgerov-krasivo-7.jpg);
+    background-size: 100%;
+}
+
+.e {
+    background: url(https://www.funnyart.club/uploads/posts/2022-12/thumbs/1671275823_www-funnyart-club-p-kartinki-burgerov-krasivo-20.jpg);
+    background-size: 100%;
+}
+
+.r {
+    background: url(https://64.media.tumblr.com/4016871a46b31ef7c313a7eec3522b65/tumblr_nxbuw6JpMr1qflpc1o1_1280.jpg);
+    background-size: 100%;
+}
+
+.t {
+    background: url(https://i.pinimg.com/originals/29/14/2b/29142b39f9e347f03804a118b2f4c371.png);
+    background-size: 100%;
+}
+
+
+
