@@ -41,6 +41,8 @@ ul {
     align-items: center;
     justify-content: center;
     background-size: 100%;
+    background-size: cover !important;
+    background-position: center !important;
 }
 
 
@@ -94,6 +96,9 @@ ul {
     background: url(https://i.pinimg.com/originals/29/14/2b/29142b39f9e347f03804a118b2f4c371.png);
     background-size: 100%;
 }
+
+
+
 
 
 
